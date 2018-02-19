@@ -14,7 +14,7 @@ FROM tomcat:${baseimage_tag}
 MAINTAINER Bruno Willenborg, Chair of Geoinformatics, Technical University of Munich (TUM) <b.willenborg@tum.de>
 
 # Setup 3DCityDB WFS ##########################################################
-ARG citydb_wfs_version=3.3.2
+ARG citydb_wfs_version=3.3.1
 ENV CITYDB_WFS_VERSION=${citydb_wfs_version}
 
 ARG citydb_wfs_context_path="citydb-wfs"
